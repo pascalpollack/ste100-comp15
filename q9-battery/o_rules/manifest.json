@@ -1,0 +1,13 @@
+{
+ "arm": "o_rules",
+ "model": "claude-sonnet-5",
+ "toolVersion": "2.1.312",
+ "systemPrompt": "harness/.prompts/sys_rules.txt",
+ "userPrompt": "harness/.prompts/user_q9.txt",
+ "runs": [
+  "q9_r1.jsonl",
+  "q9_r2.jsonl",
+  "q9_r3.jsonl",
+  "q9_r4.jsonl"
+ ]
+}

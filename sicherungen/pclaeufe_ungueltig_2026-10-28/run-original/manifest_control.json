@@ -1,0 +1,12 @@
+{
+ "arm": "control",
+ "home": "run-original",
+ "model": "claude-sonnet-5",
+ "toolVersion": "2.1.312",
+ "systemPrompt": "harness/.prompts/sys_control.txt",
+ "userPrompt": "harness/.prompts/user_full15.txt",
+ "runs": [
+  "control_full15_r1.jsonl",
+  "control_full15_r2.jsonl"
+ ]
+}

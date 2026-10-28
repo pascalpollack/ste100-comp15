@@ -1,0 +1,147 @@
+=== run-original/control_full15_r1.jsonl ===
+model=None is_error=False subtype=success
+**Q1.** Nein, *should* ist in STE nicht zugelassen. Zugelassene Modalverben sind: **can, may, must, will** (zus├ñtzlich die Verneinung **must not** f├╝r Verbote). F├╝r Pflicht wird statt "should" meist **must** verwendet, f├╝r M├Âglichkeit **can**.
+
+**Q2.** Der Satz ist unvollst├ñndig ("The" allein) ÔÇô bitte den vollst├ñndigen Satz angeben, damit ich ihn in STE umschreiben kann.
+
+=== run-original/control_full15_r2.jsonl ===
+model=None is_error=False subtype=success
+**Q1.** Nein, *should* ist in ASD-STE100 nicht zugelassen. Die zugelassenen Modalverben sind: **can, may, must, will**.
+
+**Q2.** Der angegebene Satz ist unvollst├ñndig (nur "The"). Bitte den vollst├ñndigen Satz nachreichen, damit ich ihn in STE umschreiben kann.
+
+=== run-original/o_folder_full15_r1.jsonl ===
+model=None is_error=False subtype=success
+**Q1.** Nein, *should* ist in STE nicht zugelassen. Die zugelassenen Modalverben sind: **can, may, must, will** (sowie die Verneinung *must not*). F├╝r Verpflichtung/Empfehlung wird statt *should* **must** verwendet (ggf. mit Bedingungssatz, um Nuancen auszudr├╝cken).
+
+**Q2.** Dein Satz ist unvollst├ñndig abgeschnitten ("The"). Bitte den vollst├ñndigen Satz nachreichen, dann schreibe ich ihn STE-konform um.
+
+=== run-original/o_folder_full15_r2.jsonl ===
+model=None is_error=False subtype=success
+Q1. Nein, "should" ist in STE nicht zugelassen. Die zugelassenen Modalverben sind: **can**, **may**, **must** und **will** (Rule 3.3 bzw. je nach Ausgabe auch als Dictionary-Teil gef├╝hrt). "Should" wird durch eine Umformulierung mit **must** (f├╝r Verpflichtung) oder durch einen konditionalen/Prozedursatz ersetzt.
+
+Q2. Der Satz "The" ist unvollst├ñndig ÔÇô bitte den vollst├ñndigen Satz angeben, damit ich ihn in STE umschreiben kann.
+
+=== run-original/o_rules_full15_r1.jsonl ===
+model=None is_error=False subtype=success
+Q1. Nein, **should** ist kein zugelassenes Modalverb in STE. Zugelassen sind laut Dictionary (Teil 2): **CAN, MAY, MUST, MUST NOT, WILL**.
+
+Q2. Der Satz "The" ist unvollst├ñndig ÔÇô bitte den vollst├ñndigen Satz angeben, damit ich ihn gem├ñ├ƒ den STE-Regeln (z. B. Rule 1.1, 1.2, 3.2, 4.1, 4.2) umschreiben kann.
+
+=== run-original/o_rules_full15_r2.jsonl ===
+model=None is_error=False subtype=success
+Q1. Nein, "should" ist kein zugelassenes Modalverb in STE. Zugelassen sind laut Dictionary (Teil 2): CAN, MAY, MUST, MUST NOT, WILL.
+
+Q2. Der Satz ist unvollst├ñndig ("The") ÔÇô bitte den vollst├ñndigen Satz angeben, damit ich ihn in STE umschreiben kann.
+
+=== run-rebuild/r_folder_full15_r1.jsonl ===
+model=None is_error=False subtype=success
+**Q1.** Nein, *should* ist in STE nicht zugelassen. Die zugelassenen Modalverben sind: **can, may, must, will, would** (Rule 3.3, Dictionary-Teil). F├╝r Verpflichtung/Vorschrift wird statt *should* **must** verwendet; f├╝r M├Âglichkeit **can** oder **may**.
+
+**Q2.** Der zu ├╝bersetzende Satz ist in Ihrer Nachricht abgeschnitten (er endet bei ÔÇ×The"). Bitte senden Sie den vollst├ñndigen Satz, damit ich ihn in STE umschreiben kann.
+
+=== run-rebuild/r_folder_full15_r2.jsonl ===
+model=None is_error=False subtype=success
+**Q1.** Nein, *should* ist in STE **nicht** zugelassen (Dictionary, STE-Eintrag ÔÇ×SHOULD ÔÇô not used, use MUST"). Die zugelassenen Modalverben nach ASD-STE100 sind:
+- **can**
+- **may**
+- **must**
+- **will**
+- **would**
+
+(vgl. Writing Rule 7.1 ÔÇô nur die im STE-Dictionary als Modalverben freigegebenen W├Ârter d├╝rfen verwendet werden; f├╝r eine Pflicht/Empfehlung ist stattdessen **must** zu verwenden.)
+
+**Q2.** Dein Satz ist offenbar abgeschnitten ÔÇô es steht nur ÔÇ×The" da. Bitte den vollst├ñndigen Satz nachreichen, dann schreibe ich ihn in STE um.
+
+=== run-rebuild/r_rules_full15_r1.jsonl ===
+model=None is_error=False subtype=success
+**Q1.** Nein, *should* ist in STE **nicht** zugelassen. Die zugelassenen Modalverben sind: **CAN, MAY, MUST, WILL** (jeweils nur in dieser Form, keine Vergangenheits- oder Verneinungsvarianten wie *could, might, should, would*). F├╝r eine Empfehlung/Verpflichtung wird in STE stattdessen **MUST** verwendet.
+
+**Q2.** Der Satz ist unvollst├ñndig abgeschnitten ("The"). Bitte den vollst├ñndigen Satz angeben, den ich umschreiben soll.
+
+=== run-rebuild/r_rules_full15_r2.jsonl ===
+model=None is_error=False subtype=success
+**Q1.** Nein, *should* ist in STE nicht zugelassen. Die zugelassenen Modalverben sind: **can, may, must, will** (und die Verneinung **must not**). F├╝r eine Empfehlung/Verpflichtung wird statt *should* in der Regel **must** verwendet; f├╝r M├Âglichkeit **can** oder **may**.
+
+**Q2.** Der Satz ist unvollst├ñndig ├╝bermittelt worden ÔÇô nach "The" fehlt der Rest. Bitte den vollst├ñndigen Satz nachreichen, dann schreibe ich ihn in STE um.
+
+=== q9-battery/control/q9_r1.jsonl ===
+model=None is_error=False subtype=success
+Q9. ASD-STE100 schreibt amerikanisches Englisch (American spelling) vor, nicht britisches. Rule 1.14 nennt als Ausnahme: Wenn ein Firmen-, Marken- oder Produktname offiziell britische Schreibweise verwendet, muss diese Schreibweise beibehalten werden (z. B. Eigennamen nicht "amerikanisiert" werden).
+
+=== q9-battery/control/q9_r2.jsonl ===
+model=None is_error=False subtype=success
+Q9. ASD-STE100 schreibt amerikanische Rechtschreibung vor (American English spelling), nicht britische. Rule 1.14 nennt als Ausnahme: Wenn ein Begriff im zugeh├Ârigen Dictionary (oder im firmenspezifischen/ausgew├ñhlten W├Ârterbuch) ausdr├╝cklich mit britischer Schreibweise aufgef├╝hrt ist, darf diese verwendet werden ÔÇô die W├Ârterbuch-Vorgabe hat also Vorrang vor der generellen amerikanischen Regel.
+
+=== q9-battery/control/q9_r3.jsonl ===
+model=None is_error=False subtype=success
+Q9. ASD-STE100 schreibt amerikanisches Englisch (American spelling) vor, nicht britisches. Rule 1.14 nennt als Ausnahme: Wenn ein Firmen-, Produkt- oder Eigenname (z.B. aus Herstellerdokumentation) britische Schreibweise verwendet, darf diese in Eigennamen/Zitaten beibehalten werden, statt sie in amerikanische Schreibweise zu ├ñndern.
+
+=== q9-battery/control/q9_r4.jsonl ===
+model=None is_error=False subtype=success
+Q9. ASD-STE100 schreibt amerikanisches Englisch (American spelling) vor, nicht britisches. Rule 1.14 nennt als Ausnahme: Wenn ein Firmen-, Marken- oder Produktname offiziell britische Schreibweise verwendet, muss diese Originalschreibweise beibehalten werden (z. B. Eigennamen, die "britisch" geschrieben sind, bleiben unver├ñndert).
+
+=== q9-battery/o_folder/q9_r1.jsonl ===
+model=None is_error=False subtype=success
+Q9. ASD-STE100 schreibt amerikanisches Englisch (American spelling) vor, nicht britisches. Rule 1.14 nennt als Ausnahme: Wenn ein Firmen-/Hersteller-eigenes Datenw├Ârterbuch (Approved Words List) eine britische Schreibweise f├╝r ein bestimmtes Wort festlegt, darf diese verwendet werden ÔÇô die firmenspezifische Festlegung hat Vorrang vor der generellen amerikanischen Konvention.
+
+=== q9-battery/o_folder/q9_r2.jsonl ===
+model=None is_error=False subtype=success
+Q9. STE schreibt amerikanische Rechtschreibung vor (Rule 1.14). Ausnahme: Wenn ein Firmen- oder Produktname bzw. eine feste Bezeichnung in britischer Schreibweise vorgegeben ist (z.B. in Teilenamen oder Dokumenttiteln), bleibt diese Originalschreibweise erhalten, auch wenn sie von der amerikanischen Form abweicht.
+
+=== q9-battery/o_folder/q9_r3.jsonl ===
+model=None is_error=False subtype=success
+Q9. ASD-STE100 schreibt amerikanisches Englisch (American spelling) als Rechtschreibkonvention vor. Rule 1.14 nennt als Ausnahme: Wenn ein Firmen- oder Projektname, eine Teilebezeichnung oder ein Dokumenttitel offiziell in britischer Schreibweise festgelegt ist, muss diese britische Schreibweise beibehalten werden, auch wenn sie von der sonst vorgeschriebenen amerikanischen Schreibweise abweicht.
+
+=== q9-battery/o_folder/q9_r4.jsonl ===
+model=None is_error=False subtype=success
+Q9. STE schreibt amerikanisches Englisch (American spelling) vor, nicht britisches. Rule 1.14 nennt als Ausnahme: Wenn ein Wort in den zugelassenen STE-W├Ârterb├╝chern mit britischer Schreibweise aufgef├╝hrt ist bzw. ein Unternehmen/Hersteller in seiner Dokumentation durchg├ñngig die britische Schreibweise verwendet, darf diese britische Schreibweise konsistent beibehalten werden ÔÇô sie muss dann aber im gesamten Dokument einheitlich angewendet werden.
+
+=== q9-battery/o_rules/q9_r1.jsonl ===
+model=None is_error=False subtype=success
+Q9. STE schreibt amerikanische Rechtschreibung vor (Rule 1.14). Ausnahme: Wenn andere offizielle Vorgaben (z. B. firmen- oder projektspezifische Vorschriften) etwas anderes verlangen, gilt diese abweichende Vorgabe.
+
+=== q9-battery/o_rules/q9_r2.jsonl ===
+model=None is_error=False subtype=success
+Q9. Rule 1.14 schreibt amerikanische Rechtschreibung vor. Ausnahme: wenn andere offizielle Vorgaben (official requirements) etwas anderes verlangen, gilt diese abweichende Vorgabe.
+
+=== q9-battery/o_rules/q9_r3.jsonl ===
+model=None is_error=False subtype=success
+Q9. Rule 1.14 schreibt amerikanische Rechtschreibung vor. Ausnahme: Wenn andere offizielle Vorgaben (z. B. eine firmen- oder kundenspezifische Vorgabe) etwas anderes verlangen, gilt diese abweichende Vorgabe.
+
+=== q9-battery/o_rules/q9_r4.jsonl ===
+model=None is_error=False subtype=success
+Q9. Rule 1.14 schreibt amerikanische Rechtschreibung vor. Die Ausnahme: Wenn andere offizielle Vorgaben (z. B. kundenspezifische oder beh├Ârdliche Vorschriften) etwas anderes verlangen, gilt diese abweichende Vorgabe.
+
+=== q9-battery/r_folder/q9_r1.jsonl ===
+model=None is_error=False subtype=success
+Q9. STE schreibt amerikanische Rechtschreibung vor (z.B. "color" statt "colour"). Rule 1.14 nennt als Ausnahme: Wenn ein Wort nicht im STE-W├Ârterbuch (Dictionary) enthalten ist, darf die Rechtschreibung des jeweiligen Firmen- bzw. Hersteller-W├Ârterbuchs ("company dictionary") verwendet werden.
+
+=== q9-battery/r_folder/q9_r2.jsonl ===
+model=None is_error=False subtype=success
+Q9. STE schreibt amerikanische Rechtschreibung vor (American spelling), unter Verwendung eines spezifizierten W├Ârterbuchs (z. B. Merriam-Webster). Rule 1.14 nennt als Ausnahme: Wenn ein Unternehmen oder eine Organisation in ihren eigenen Dokumenten/Terminologie offiziell britische Schreibweise verwendet, darf diese britische Schreibweise durchg├ñngig (konsistent) beibehalten werden, statt auf amerikanische Schreibweise zu wechseln.
+
+=== q9-battery/r_folder/q9_r3.jsonl ===
+model=None is_error=False subtype=success
+Q9. STE schreibt amerikanisches Englisch (American spelling) vor, z. B. "color" statt "colour". Rule 1.14 nennt als Ausnahme: Wenn ein Wort nicht im Dictionary (dem STE-W├Ârterbuch) aufgef├╝hrt ist, soll die Schreibweise verwendet werden, die im firmeneigenen Datawords-/Terminologie-W├Ârterbuch des jeweiligen Unternehmens festgelegt ist.
+
+=== q9-battery/r_folder/q9_r4.jsonl ===
+model=None is_error=False subtype=success
+Q9. STE schreibt amerikanisches Englisch vor (z. B. "color" statt "colour"). Rule 1.14 nennt als Ausnahme: Wenn ein Wort im Dictionary mit zwei zul├ñssigen Schreibweisen gelistet ist, kann die Schreibweise verwendet werden, die in der Firma/beim Unternehmen bereits etabliert ist bzw. im firmeneigenen W├Ârterbuch (Company Approved Words List) festgelegt wurde.
+
+=== q9-battery/r_rules/q9_r1.jsonl ===
+model=None is_error=False subtype=success
+Q9. ASD-STE100 schreibt amerikanische Rechtschreibung vor. Rule 1.14 nennt als Ausnahme: Wenn ein Firmen- oder Produktname offiziell britische Schreibweise verwendet, darf diese britische Schreibweise f├╝r diesen spezifischen Namen beibehalten werden.
+
+=== q9-battery/r_rules/q9_r2.jsonl ===
+model=None is_error=False subtype=success
+Q9. ASD-STE100 schreibt amerikanisches Englisch (American spelling) vor, nicht britisches. Die Ausnahme in Rule 1.14: Wenn ein Wort im STE-W├Ârterbuch ausdr├╝cklich mit britischer Schreibweise aufgef├╝hrt ist, muss diese britische Schreibweise verwendet werden (anstatt die amerikanische Form abzuleiten).
+
+=== q9-battery/r_rules/q9_r3.jsonl ===
+model=None is_error=False subtype=success
+Q9. ASD-STE100 schreibt amerikanische Rechtschreibung vor (American spelling). Die Ausnahme nach Rule 1.14: Wenn ein Unternehmen/eine Organisation in ihrer eigenen Dokumentation standardm├ñ├ƒig britische Rechtschreibung verwendet, darf sie British spelling benutzen ÔÇô dann aber konsistent im gesamten Dokument/Unternehmen, nicht gemischt.
+
+=== q9-battery/r_rules/q9_r4.jsonl ===
+model=None is_error=False subtype=success
+Q9. STE schreibt amerikanisches Englisch (American spelling) vor. Die Ausnahme in Rule 1.14: Wenn ein Firmen- oder Produktname offiziell britische Schreibweise verwendet, darf diese britische Schreibweise f├╝r diesen Eigennamen beibehalten werden.
+

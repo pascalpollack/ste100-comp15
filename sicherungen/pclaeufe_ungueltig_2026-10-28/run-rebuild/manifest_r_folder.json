@@ -1,0 +1,12 @@
+{
+ "arm": "r_folder",
+ "home": "run-rebuild",
+ "model": "claude-sonnet-5",
+ "toolVersion": "2.1.312",
+ "systemPrompt": "harness/.prompts/sys_r_folder.txt",
+ "userPrompt": "harness/.prompts/user_full15.txt",
+ "runs": [
+  "r_folder_full15_r1.jsonl",
+  "r_folder_full15_r2.jsonl"
+ ]
+}
